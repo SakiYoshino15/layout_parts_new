@@ -32,26 +32,26 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div  class="q8-btn q8-small-btn q8-common-btn">common</div>
+            <div  class="q8-btn q8-small-btn  q8-error-btn">error</div>
+            <div  class="q8-btn q8-small-btn  q8-disabled-btn">disabled</div>
+            <div  class="q8-btn q8-small-btn  q8-shadow-btn">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div  class="q8-btn q8-middle-btn q8-common-btn">common</div>
+            <div  class="q8-btn q8-middle-btn q8-error-btn">error</div>
+            <div  class="q8-btn q8-middle-btn q8-disabled-btn">disabled</div>
+            <div  class="q8-btn q8-middle-btn q8-shadow-btn">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div  class="q8-btn q8-large-btn  q8-common-btn">common</div>
+            <div  class="q8-btn q8-large-btn  q8-error-btn">error</div>
+            <div  class="q8-btn q8-large-btn  q8-disabled-btn">disabled</div>
+            <div  class="q8-btn q8-large-btn  q8-shadow-btn">shadow</div> 
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -66,7 +66,7 @@
                まずは元々タグにあてられているスタイルを解除して、フラットな状態にしてからスタイルを当てていくことが大事です。
 
                特にradioとcheckboxのチェックのスタイルが難しいと思います。
-               やり方として、既存のチェックは使わずに擬似要素でチェックのフィールドを再現します。:checkedを使えばチェックされているかどうかでスタイルを変えることができるので、これをうまく使いましょう。cssでは+（隣接セレクタ）というものも使わなくてはなりませんので、調べてみましょう。
+               やり 方として、既存のチェックは使わずに擬似要素でチェックのフィールドを再現します。:checkedを使えばチェックされているかどうかでスタイルを変えることができるので、これをうまく使いましょう。cssでは+（隣接セレクタ）というものも使わなくてはなりませんので、調べてみましょう。
                また、一番下のボタンはbuttonタグを使って実装しましょう。（<input type="submit">を使って実装することも可能です）
 
                この課題では、実際にユーザーが入力した値を送れる状態まで作っていただきます。answerの方で確認していただきたいのですが、全ての入力フォームを適当に記述してsubmitボタンを押してみてください。URL欄の最後に「?name=...」という感じの文字列が追加されているのがわかると思います。（その?以降のものをパラメーターと呼びます。複数ある場合は?◯◯=□□&△△=××のように&繋ぎになります。◯◯や△△の部分はinputタグやselectタグのname属性が入ります。）
@@ -99,7 +99,65 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form  class="q8_form"  >
+               <div class="q8_form-title">
+                 <p class="q8_form-title-text">Form Exercise</p>
+                </div>
+                <div  class="clearfix">
+                  <div class="q8_main">
+                    <ul class="main-items">
+                      <li class="main-items-box clearfix">
+                        <p  class="main-items-title-text">名前<span  class="must">*</span></p>
+                        <div  class="main-items-content">
+                          <input  type="text" name="name" class="main-items-input input-init" required>
+                        </div>
+                      </li>     
+                      <li class="main-items-box clearfix">
+                        <p  class="main-items-title-text">性別</p>
+                        <div  class="main-items-content">
+                            <label><input class="main-items-radio-btn" type="radio"  name="gender"  value="man"><span  class="main-items-radio-text">男性</span></label>
+                            <label><input class="main-items-radio-btn"  type="radio"  name="gender"  value="female"><span   class="main-items-radio-text">女性</span></label>
+                        </div>
+                      </li> 
+                      <li class="main-items-box clearfix">
+                        <p  class="main-items-title-text">出身</p>
+                        <div  class="main-items-content  main-items-select">
+                          <select  type="select"  class="main-items-input input-init  main-items-select-content" name="name" class="main-init">
+                            <option value="Tokyo">東京</option>
+                            <option value="Saitama">埼玉</option>
+                            <option value="Chiba">千葉</option>
+                            <option value="Kanagawa">神奈川</option>
+                          </select>
+                        </div>  
+                      </li>
+                      <li class="main-items-box  clearfix">  
+                        <p class="main-items-title-text">Eメール<span  class="must" required>*</span></p>
+                        <div  class="main-items-content">   
+                          <input  type="text" class=" main-items-input  input-init" name="name" placeholder="ex) hoge@gmail.com" required>
+                        </div>
+                      </li>  
+                      <li class="main-items-box  clearfix">
+                        <p  class="main-items-title-text">電話番号</p> 
+                        <div  class="main-items-content">
+                          <input  type="text" class="main-items-input input-init" name="number" placeholder="ex) 08012345678" required>
+                        </div>  
+                      </li> 
+                      <li class="main-items-box  clearfix">   
+                        <div   class="main-items-content">   
+                          <label><input type="checkbox" class="main-items-checkbox-btn"  name="twenty"  value="true">
+                          <span  class="main-items-checkbox-text">20歳以上です</span></label>
+                        </div>
+                      </li>
+                    </ul>  
+                    <div  class="q8_main-bottom">
+                        <button class="main-items-btn input-init" type="submit">送信</button>
+                    </div>  
+                  </div>
+                  
+                  <div  class="q8_side">
+                    <textarea class="main-items-messagebox input-init"  name="massage"  placeholder="何かあれば入力してください"></textarea>
+                  </div>  
+              </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
