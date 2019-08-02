@@ -2,93 +2,93 @@
 
 /* 回答はここに書いてね */
 /* float */
-.q7-float-content-box {
+.q7-float-content-box{
  width: 225px;
  float: left;
  margin-left: 50px;
  box-sizing: border-box; 
 }
-.q7-float-content-box:first-child {
-margin-left: 0px;
+.q7-float-content-box:first-child{
+  margin-left: 0px;
 }
 
 .clearfix::after{
-content: "";
-display: block;
-clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 /*   ここまでfloat */
 
 /*  table */
-.q7-table-content-inner  {
-display: table;
-width:  100%;
-margin: auto  0;
+.q7-table-content-inner{
+  display: table;
+  width: 100%;
+  margin: auto 0;
 }
-.q7-table-content-box {
-display: table-cell;
-width: 225px;
-margin-left:  50px;
-padding-left: 50px;
+.q7-table-content-box{
+  display: table-cell;
+  width: 225px;
+  margin-left: 50px;
+  padding-left: 50px;
 }
-.q7-table-content-box:first-child  {
-vertical-align: middle;
-padding-left: 0;
+.q7-table-content-box:first-child{
+  vertical-align: middle;
+  padding-left: 0;
 }
 /* ここまでtable */
 
 /* inlineblock */
 .q7-inlineblock-content-inner{
-width: 100%;  
-font-size: 0;
+  width: 100%;  
+  font-size: 0;
 }
-.q7-inlineblock-content-box {
-display: inline-block;
-width:  225px;
-margin-left: 50px;
-box-sizing: border-box;
-font-size: 16px;
-vertical-align: middle;
+.q7-inlineblock-content-box{
+  display: inline-block;
+  width: 225px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: middle;
 }
-.q7-inlineblock-content-box:first-child {
-margin-left: 0;
+.q7-inlineblock-content-box:first-child{
+  margin-left: 0;
 }
 /* ここまでinlineblock */
 
 /* flex */
-.q7-flex-content-inner {
-display: -webkit-flex;  
-display: flex;
--webkit-justify-content: space-around;
-justify-content: space-around;
+.q7-flex-content-inner{
+  display: -webkit-flex;  
+  display: flex;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
 }
-.q7-flex-content-box  {
-width:  225px;
-box-sizing: border-box;
+.q7-flex-content-box{
+  width: 225px;
+  box-sizing: border-box;
 }
-.q7-flex-content-box:first-child  {
-align-self: flex-end;
+.q7-flex-content-box:first-child{
+  align-self: flex-end;
 } 
 /* ここまでflex */
 
 /* inline-blockとmarginでの横並び */
-.q7-inlineblock2-inner  {
-font-size: 0px;
+.q7-inlineblock2-inner{
+  font-size: 0px;
 }
 
-.q7-monospaced-content-box  {
-display: inline-block;
-width: 300px;
-font-size: 16px;
-vertical-align: top;
+.q7-monospaced-content-box{
+  display: inline-block;
+  width: 300px;
+  font-size: 16px;
+  vertical-align: top;
 }
-.q7-proportional-content-box  {
-width: 100%;
-display: inline-block;
-font-size: 16px;
-margin-left: -300px;
-padding-left: 350px;
-box-sizing: border-box;
+.q7-proportional-content-box{
+  width: 100%;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
 }
 /* ここまでinline-blockとmarginでの横並び */
 

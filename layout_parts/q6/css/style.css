@@ -3,78 +3,76 @@
 /* 回答はここに書いてね */
 
 /* text-align */
-.q6_text-align-box  {
-width:  100%;  
-text-align: center;
+.q6_text-align-box{
+  width: 100%;  
+  text-align: center;
 }
-.q6_text-align {
-width:  90px;
-padding:  10px;
-background-color: #e6f2ff;
-box-sizing: border-box;
-display: inline-block;
+.q6_text-align{
+  width: 90px;
+  padding: 10px;
+  background-color: #e6f2ff;
+  box-sizing: border-box;
+  display: inline-block;
 }
-
 
 /* margin */
-.q6_margin {  
-padding:  10px;
-width:  70px;
-margin: 0 auto;  
-background-color: #e6f2ff;
-box-sizing: border-box;
+.q6_margin{  
+  padding: 10px;
+  width: 70px;
+  margin: 0 auto;  
+  background-color: #e6f2ff;
+  box-sizing: border-box;
 }
-
 
 /* table */
 .q6_table-around{
-display: table;
+  display: table;
 }
-.q6_table-box {
-display: table-cell;
-width:  100%;
-vertical-align: middle;
-text-align: center;
+.q6_table-box{
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
 }
-.q6_table-text {  
-display: inline-block; 
-padding:  10px; 
-background-color: #fff;
-  }  
+.q6_table-text{  
+  display: inline-block; 
+  padding: 10px; 
+  background-color: #fff;
+}  
 
  /* flex  */
-.q6_flex-box  {
-display: flex; 
-align-items: center;
-justify-content: center;   
+.q6_flex-box{
+  display: flex; 
+  align-items: center;
+  justify-content: center;   
 }
-.q6_flex-text  {
-padding: 10px;
-background-color: #fff;  
+.q6_flex-text{
+  padding: 10px;
+  background-color: #fff;  
 }
 
 /* position固定 */
-.q6_position-stable-box  {
-position: relative;
+.q6_position-stable-box{
+  position: relative;
 }
-.q6_position-stable-text {
-position: absolute;
-top: 0px;
-bottom: 0px;
-left: 0px;
-right: 0px;
-margin: auto;  
+.q6_position-stable-text{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;  
 }
 
 /* position可変 */
 .q6_position-flexible-box {
-position: relative;  
+  position: relative;  
 }
 .q6_position-flexible-text  {
-position: absolute;
-top:  50%;
-left: 50%;
-margin: auto;
-transform: translateX(-50%)translateY(-50%);  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: auto;
+  transform: translateX(-50%)translateY(-50%);  
 }
 /* 回答はここに書いてね */

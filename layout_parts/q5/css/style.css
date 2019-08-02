@@ -1,91 +1,81 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q5_content {
-width:  500px;
-height: 500px;
-background-color: #ECF1F2;
-margin: 0 auto;
-position: relative;  
+.q5_content{
+  width: 500px;
+  height: 500px;
+  background-color: #ECF1F2;
+  margin: 0 auto;
+  position: relative;  
 }
-.one, .two,  .three,  .four,  .five, .six,  .seven,  .eight,  .nine {
-width:  100px;
-height: 100px;
-position: absolute;
-line-height:  100px;
-text-align: center;
-font-size: 30px;
-font-weight: bold;
+.q5_box{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  line-height: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
 }
-
-.one  {
-background-color:   #ffefd3;
-top:  40px;
-left: 200px;
-z-index: 1;
+.one{
+  background-color:   #ffefd3;
+  top: 40px;
+  left: 200px;
+  z-index: 1;
 }
-
-
-
-.two  {
-background-color: #7084de;
-top:  120px;
-left: 280px;
-z-index: 2;
+.two{
+  background-color: #7084de;
+  top: 120px;
+  left: 280px;
+  z-index: 2;
 }
-.three  {
-background-color: #d0ecea;
-top:  200px;
-right:  40px;
-z-index: 3;
+.three{
+  background-color: #d0ecea;
+  top: 200px;
+  right: 40px;
+  z-index: 3;
 }
-
-.four {
-background-color: #8b7a5e;
-bottom: 120px;
-left:  280px;
-z-index: 4;
-
+.four{
+  background-color: #8b7a5e;
+  bottom: 120px;
+  left: 280px;
+  z-index: 4;
 }
-
-.five {
-background-color: #9fd6d2;
-bottom:  40px;
-left: 200px;
-z-index: 5;
+.five{
+  background-color: #9fd6d2;
+  bottom: 40px;
+  left: 200px;
+  z-index: 5;
 }
-
-.six  {
-background-color: #fffee4;
-bottom: 120px;
-right:  280px;
-z-index: 6;
+.six{
+  background-color: #fffee4;
+  bottom: 120px;
+  right: 280px;
+  z-index: 6;
 }
-
-.seven  {
-background-color: #deae70;
-top:  200px;
-left:  40px;
-z-index: 7;
+.seven{
+  background-color: #deae70;
+  top: 200px;
+  left: 40px;
+  z-index: 7;
 }
-
 .eight{
-top:  120px;
-right: 280px;
-background-color: #de70ce;
-z-index: 8;
+  top:  120px;
+  right: 280px;
+  background-color: #de70ce;
+  z-index: 8;
 }
 .eight:after{
-content:''; 
-background-color:    #ffefd3;
-padding:  10px;
-position: absolute;
-right: 0px;  
+  content:　''; 
+  background-color: #ffefd3;
+  padding: 10px;
+  position: absolute;
+  right: 0px;  
 }
-.nine {
-background-color: #2b69a3;
-position: fixed;
-top:  10px;
-left: 10px;
+.nine{
+  background-color: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
 }
 /* 回答はここに書いてね */

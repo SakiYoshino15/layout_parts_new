@@ -1,269 +1,265 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.q8-btn {
-display: inline-block;
-color: #fff;
-text-align: center;
-margin-left: 10px;
-cursor:pointer;
+.q8-btn{
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
-.q8-small-btn {
-font-size:  16px; 
-padding: 0  15px;
-line-height: 26px;
-border-radius: 3px; 
+.q8-small-btn{
+  font-size: 16px; 
+  padding: 0 15px;
+  line-height: 26px;
+  border-radius: 3px; 
 }
-.q8-middle-btn {
-font-size: 20px;
-padding: 0  20px;
-line-height: 32px;
-border-radius: 5px;
+.q8-middle-btn{
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 32px;
+  border-radius: 5px;
 }
-.q8-large-btn {
-font-size: 24px;
-padding:  0 25px;
-line-height: 38px;
-border-radius: 7px;
+.q8-large-btn{
+  font-size: 24px;
+  padding: 0 25px;
+  line-height: 38px;
+  border-radius: 7px;
 }
 
 
-.q8-common-btn {
-background-color: #00bcd4;
-margin-left: 0px;
+.q8-common-btn{
+  background-color: #00bcd4;
+  margin-left: 0px;
 }
-.q8-error-btn {
-background-color:#ff4081;
+.q8-error-btn{
+  background-color: #ff4081;
 }
-.q8-disabled-btn  {
-background-color:#e5e5e5;
+.q8-disabled-btn{
+  background-color: #e5e5e5;
 }
-.q8-shadow-btn  {
-color: #222;
-box-shadow: 0 1px 6px rgba(0, 0, 0,.12), 
-            0 1px 4px rgba(0, 0, 0,.12);
+.q8-shadow-btn{
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0, 0, 0,.12), 
+              0 1px 4px rgba(0, 0, 0,.12);
 }
 
 
 
 /* 送信フォーム */
-.q8_form  {
-width: 740px;  
-padding: 20px;
-background-color: #ECF1F2;
-margin: 0 auto;
-box-sizing: border-box;
+.q8_form{
+  width: 740px;  
+  padding: 20px;
+  background-color: #ECF1F2;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
-.q8_form-title  {
-margin-bottom: 20px;  
-position: relative;
+.q8_form-title{
+  margin-bottom: 20px;  
+  position: relative;
 }
-.q8_form-title::before  {
-position: absolute;  
-background-color: #ccc;
-height: 1px;
-width: 100%;
-display: inline-block;
-top:  50%;
-content: ""; 
-}
-
-.q8_form-title-text  {
-position: relative;
-padding-right: 10px;
-font-size:  24px;
-font-weight: bold;
-display: inline-block;
-background-color: #ECF1F2;
-}
-.q8_main  {
-float:  left;
-width: 300px;
-float: left;
-box-sizing: border-box;
-}
-.main-items {
-margin-bottom: 0px;  
-}
-.main-items-box {   
-margin-top: 20px;
-text-align: right;
-}
-.main-items-box:first-child {
-margin-top: 0px;  
-}
-.main-items-title-text {
-width: 100px;  
-font-size: 16px;
-line-height: 25px;
-text-align: right;
-float: left;
-}
-.main-items-content {
-float:  right;
-width:  180px;  
-}
-.main-items-content:nth-child(2)  {
-text-align: left;
+.q8_form-title::before{
+  position: absolute;  
+  background-color: #ccc;
+  height: 1px;  
+  width: 100%;
+  display: inline-block;
+  top: 50%;
+  content: ""; 
 }
 
-.main-items-radio-text  {
-position: relative;
-display: inline-block;
-padding:  3px 3px 3px 20px;  
+.q8_form-title-text{
+  position: relative;
+  padding-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #ECF1F2;
+}
+.q8_main{
+  float: left;
+  width: 300px;
+  float: left;
+  box-sizing: border-box;
+}
+.main-items{
+  margin-bottom: 0px;  
+}
+.main-items-box{
+  margin-top: 20px;
+  text-align: right;
+}
+.main-items-box:first-child{
+  margin-top: 0px;  
+}
+.main-items-title-text{
+  width: 100px;  
+  font-size: 16px;
+  line-height: 25px;
+  text-align: right;
+  float: left;
+}
+.main-items-content{
+  float: right;
+  width: 180px;  
+}
+.main-items-content:nth-child(2){
+  text-align: left;
+}
+
+.main-items-radio-text{
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;  
 }
 .main-items-radio-btn{  
-display: none;
+  display: none;
 }
-.main-items-radio-text::before  {
-position: absolute;
-left: 0px;
-top:  50%;
-margin-top: -8px;
-width:  14px;
-height: 14px;
-border: 1px solid #ccc;
-border-radius: 50%;
-background-color: #fff;
-content:'';
+.main-items-radio-text::before{
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  margin-top: -8px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  background-color: #fff;
+  content:'';
 }
-.main-items-radio-text::before,.main-items-radio-text {
-cursor: pointer;  
+.main-items-radio-text::before,.main-items-radio-text{
+  cursor: pointer;  
 }
-.main-items-radio-btn:checked +  .main-items-radio-text::after {
-position: absolute;
-left: 4px;
-top:  50%;
-width:  8px;
-height: 8px;
-margin-top: -4px;
-border-radius: 50%;
-background-color: #00bcd4;  
-content: '';
-}
-
-.main-items-select  {
-position: relative;  
-cursor: pointer; 
-}
-.main-items-select-content  {
-cursor: pointer;  
-}
-.main-items-select::after {
-position: absolute;
-top:  4px; 
-right: 10px;  
-width: 8px;
-height: 8px;
-border-right: 2px  solid#E5E5E5;
-border-bottom: 2px  solid#E5E5E5;
-transform:  rotate(45deg);
-pointer-events: none;
-content:'';
+.main-items-radio-btn:checked + .main-items-radio-text::after{
+  position: absolute;
+  left: 4px;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  border-radius: 50%;
+  background-color: #00bcd4;  
+  content: '';
 }
 
-.main-items-checkbox-btn  {
-display:  none;
+.main-items-select{
+  position: relative;  
+  cursor: pointer; 
 }
-.main-items-checkbox-text {
-position: relative;
-display: inline-block;
-padding:  0px 0px 0px 24px; 
+.main-items-select-content{
+  cursor: pointer;  
+}
+.main-items-select::after{
+  position: absolute;
+  top: 4px; 
+  right: 10px;  
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid#E5E5E5;
+  border-bottom: 2px solid#E5E5E5;
+  transform: rotate(45deg);
+  pointer-events: none;
+  content: '';
+}
+
+.main-items-checkbox-btn{
+  display: none;
+}
+.main-items-checkbox-text{
+  position: relative;
+  display: inline-block;
+  padding: 0px 0px 0px 24px; 
 }
 .main-items-checkbox-text::before{
-position: absolute;
-width:  16px;
-height: 16px;
-border:  1px solid #ccc;
-background-color: #fff;
-left: 0px;
-top:  50%;
-margin-top: -9px;
-content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  left: 0px;
+  top: 50%;
+  margin-top: -9px;
+  content: '';
 }
-.main-items-checkbox-btn:checked  + .main-items-checkbox-text::after {
-position: absolute;
-left: 6px;
-top: 50%;
-margin-top: -14px;
-border-right: 3px solid #00bcd4;
-border-bottom: 3px solid #00bcd4;
-width: 8px;
-height: 16px;
-transform:  rotate(45deg);
-content: '';
+.main-items-checkbox-btn:checked + .main-items-checkbox-text::after{
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  margin-top: -14px;
+  border-right: 3px solid #00bcd4;
+  border-bottom: 3px solid #00bcd4;
+  width: 8px;
+  height: 16px;
+  transform: rotate(45deg);
+  content: '';
 }
-
-  
-.must {
-color: red;
+.must{
+  color: red;
 }
-.q8_main-bottom {
-text-align: right;
-margin-top: 20px;
+.q8_main-bottom{
+  text-align: right;
+  margin-top: 20px;
 }
 
-.q8_side  {
-float: right;
-width: 380px;
-box-sizing: border-box;
+.q8_side{
+  float: right;
+  width: 380px;
+  box-sizing: border-box;
 }
 
 
-.input-init {
-background-color: none;
-padding:  0px;
-border: none;  
-padding:  0px;
-outline: none;
--webkit-appearance: none;
-appearance: none;
+.input-init{
+  background-color: none;
+  padding: 0px;
+  border: none;  
+  padding: 0px;
+  outline: none;
+  -webkit-appearance: none;
+  appearance: none;
 }
-.main-items-input {
-width: 100%;
-padding:  5px; 
-line-height: 12px;
-font-size: 12px;
-background-color: #fff;
-border-radius: 3px;
-box-sizing: border-box;
+.main-items-input{
+  width: 100%;
+  padding: 5px; 
+  line-height: 12px;
+  font-size: 12px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-sizing: border-box;
 }
-
-
-.main-items-input:focus {
-box-shadow:  0px 0px 8px #00bcd4;
+.main-items-input:focus{
+  box-shadow: 0px 0px 8px #00bcd4;
 }
-.main-items-btn {
-line-height: 26px;
-font-size: 16px;
-background-color: #00bcd4;
-padding:  0px 10px;
-color:  #fff;
-border-radius: 5px;
-cursor: pointer; 
+.main-items-btn{
+  line-height: 26px;
+  font-size: 16px;
+  background-color: #00bcd4;
+  padding:  0px 10px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer; 
 }
-.main-items-btn:active  {
-background: #fff;
-color: #00bcd4;  
+.main-items-btn:active{
+  background: #fff;
+  color: #00bcd4;  
 }
-.main-items-messagebox {
-width:  100%; 
-height: 203px;
-padding: 10px;
-box-sizing: border-box;
-float: left;
-border-radius: 3px;
-resize: none;
-font-size: 12px;
+.main-items-messagebox{
+  width: 100%; 
+  height: 203px;
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+  border-radius: 3px;
+  resize: none;
+  font-size: 12px;
 }
 
-.main-items-messagebox:focus  {
-box-shadow:  0px 0px 8px #00bcd4;
+.main-items-messagebox:focus{
+  box-shadow: 0px 0px 8px #00bcd4;
 } 
-.clearfix::after {
-content: "";
-display: block;
-clear: both;
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
 }
 /* 回答はここに書いてね */
