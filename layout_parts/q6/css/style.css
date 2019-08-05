@@ -4,7 +4,7 @@
 
 /* text-align */
 .q6_text-align-box{
-  width: 100%;  
+  width: 100%;
   text-align: center;
 }
 .q6_text-align{
@@ -16,10 +16,10 @@
 }
 
 /* margin */
-.q6_margin{  
+.q6_margin{
   padding: 10px;
   width: 70px;
-  margin: 0 auto;  
+  margin: 0 auto;
   background-color: #e6f2ff;
   box-sizing: border-box;
 }
@@ -34,21 +34,21 @@
   vertical-align: middle;
   text-align: center;
 }
-.q6_table-text{  
-  display: inline-block; 
-  padding: 10px; 
+.q6_table-text{
+  display: inline-block;
+  padding: 10px;
   background-color: #fff;
-}  
+}
 
  /* flex  */
 .q6_flex-box{
-  display: flex; 
+  display: flex;
   align-items: center;
-  justify-content: center;   
+  justify-content: center;
 }
 .q6_flex-text{
   padding: 10px;
-  background-color: #fff;  
+  background-color: #fff;
 }
 
 /* position固定 */
@@ -61,18 +61,18 @@
   bottom: 0px;
   left: 0px;
   right: 0px;
-  margin: auto;  
+  margin: auto;
 }
 
 /* position可変 */
 .q6_position-flexible-box {
-  position: relative;  
+  position: relative;
 }
 .q6_position-flexible-text  {
   position: absolute;
   top: 50%;
   left: 50%;
   margin: auto;
-  transform: translateX(-50%)translateY(-50%);  
+  transform: translateX(-50%)translateY(-50%);
 }
 /* 回答はここに書いてね */

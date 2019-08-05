@@ -6,7 +6,7 @@
   height: 500px;
   background-color: #ECF1F2;
   margin: 0 auto;
-  position: relative;  
+  position: relative;
 }
 .q5_box{
   width: 100px;
@@ -60,17 +60,17 @@
   z-index: 7;
 }
 .eight{
-  top:  120px;
+  top: 120px;
   right: 280px;
   background-color: #de70ce;
   z-index: 8;
 }
 .eight:after{
-  content:　''; 
+  content: '';
   background-color: #ffefd3;
   padding: 10px;
   position: absolute;
-  right: 0px;  
+  right: 0px;
 }
 .nine{
   background-color: #2b69a3;

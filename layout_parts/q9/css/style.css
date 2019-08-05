@@ -13,7 +13,7 @@
 }
 
 .q9-1_car-box:hover .q9-1_car-img{
-  transform:  scale(1.5,1.5);
+  transform: scale(1.5,1.5);
   transition-duration: 0.5s;
 }
 .q9-1_car-box:hover .q9-1_car-text-box{
@@ -27,12 +27,12 @@
   width: 100%;
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
-/* opacity: 0; */
+/* opacity: 0;*/
 }
 .q9-1_car-img{
-  transition: all  0.5s;
+  transition: all 0.5s;
 }
-.q9-1_car-text{ 
+.q9-1_car-text{
   position: absolute;
   bottom: 0px;
   left: 0px;
@@ -51,7 +51,7 @@
   position: relative;
   width: 100px;
   height: 100px;
-  border: 10px  solid #ecf1f2;
+  border: 10px solid #ecf1f2;
   border-top-color: #00bcd4;
   border-radius: 50%;
   animation-name: rotate;
@@ -59,19 +59,19 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-@keyframes  rotate{
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); } 
+@keyframes rotate{
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
 }
 /* .q9-2-circle::after  {
 position: absolute;
-top:  -10px;
+top:-10px;
 left: -10px;
 width: 100px;
 height: 100px;
 border: 10px  solid #00bcd4;
-border-top-color:  #ecf1f2;
-/* border-radius: 50%; */
-/* content: ''; */
-/* } */ 
+border-top-color:#ecf1f2;
+/* border-radius: 50%;*/
+/* content: '';*/
+/* }*/
 /* 回答はここに書いてね */

@@ -6,7 +6,7 @@
  width: 225px;
  float: left;
  margin-left: 50px;
- box-sizing: border-box; 
+ box-sizing: border-box;
 }
 .q7-float-content-box:first-child{
   margin-left: 0px;
@@ -39,7 +39,7 @@
 
 /* inlineblock */
 .q7-inlineblock-content-inner{
-  width: 100%;  
+  width: 100%;
   font-size: 0;
 }
 .q7-inlineblock-content-box{
@@ -57,7 +57,7 @@
 
 /* flex */
 .q7-flex-content-inner{
-  display: -webkit-flex;  
+  display: -webkit-flex;
   display: flex;
   -webkit-justify-content: space-around;
   justify-content: space-around;
@@ -68,7 +68,7 @@
 }
 .q7-flex-content-box:first-child{
   align-self: flex-end;
-} 
+}
 /* ここまでflex */
 
 /* inline-blockとmarginでの横並び */
